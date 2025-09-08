@@ -256,11 +256,12 @@ section p {
   height: 200px;
   object-fit: cover;
   display: block;
-  border-radius: 12px;          /* Rounded corners */
+  border-radius: 12px;         
   transition: transform 0.3s, box-shadow 0.3s;
 }
 
 .cards img:hover {
-  transform: scale(1.05);       /* Slight zoom effect */
+  transform: scale(1.05);     
   box-shadow: 0 6px 18px rgba(0, 0, 0, 0.2); 
 }
+
